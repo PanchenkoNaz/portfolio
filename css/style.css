@@ -306,7 +306,7 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
-    border-radius: .2em;
+    border-radius: .4em;
     width: 100%;
     height: auto;
     display: block;
@@ -319,11 +319,12 @@ textarea {
     align-items: flex-start; }
     @media only screen and (max-width: 56.25em) {
       .projects__row-content {
-        align-items: center; } }
+        align-items: center;
+      } }
     .projects__row-content-title {
       font-weight: 700;
       font-size: 2.8rem;
-      margin-bottom: 2rem; }
+      margin-bottom: 1rem; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-title {
           font-size: 2.4rem; } }
@@ -332,10 +333,21 @@ textarea {
       color: grey;
       max-width: 60rem;
       line-height: 1.7;
-      margin-bottom: 3rem; }
+      margin-bottom: 3rem; 
+    }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-desc {
           font-size: 1.7rem; } }
+
+    .link_btn {
+    display: flex;
+    gap: 3rem;
+    }
+        @media only screen and (max-width: 25.5em) {
+          .link_btn {
+              flex-direction: column;
+            }
+        }
 
 .contact {
   /* background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg); */
