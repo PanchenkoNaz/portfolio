@@ -155,7 +155,7 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #3d84a3;
+    background: #356b81c2;
     color: #fff; }
   .btn--theme-inv {
     color: #0062b9;
@@ -229,7 +229,7 @@ textarea {
     /* border-bottom: 2px solid #eee; */
     transition: background .3s; }
     .home-hero__social-icon-link:hover {
-      background: rgba(146, 187, 195, 0.778);
+      background: #48728362;
      }
     .home-hero__social-icon-link--bd-none {
       border-bottom: 0; }
@@ -344,9 +344,11 @@ textarea {
     gap: 3rem;
     }
   
-        @media only screen and (max-width: 25.5em) {
-          .link_btn {
-              flex-direction: column;
+        @media only screen and (max-width: 23.5em) {
+          .link_btn a{
+              /* flex-direction: column; */
+              font-size: 1.5rem;
+              letter-spacing: .2rem;
             }
         }
 
@@ -545,7 +547,7 @@ textarea {
     color: #333;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #387792 }
+      color: #2f5d70 }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
