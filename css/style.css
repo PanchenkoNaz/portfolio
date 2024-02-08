@@ -293,6 +293,9 @@ textarea {
   grid-template-columns: 1.5fr 1.5fr;
   grid-gap: 5rem;
   margin-bottom: 11rem; }
+  .def:nth-child(2n + 2)>div:first-child {
+    grid-column: 1;
+  }
   @media only screen and (max-width: 56.25em) {
     .projects__row {
       grid-template-columns: 1fr;
@@ -308,7 +311,7 @@ textarea {
   .projects__row-img {
     border-radius: .4em;
     width: 100%;
-    height: auto;
+    height: auto; 
     display: block;
     object-fit: cover; }
   .projects__row-content {
