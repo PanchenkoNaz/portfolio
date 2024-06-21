@@ -96,7 +96,7 @@ textarea {
     color: #333; }
     .heading-sec__main--lt::after {
       content: '';
-      background: #333 !important; }
+      background: #145765 !important; }
   .heading-sec__main::after {
     content: '';
     position: absolute;
